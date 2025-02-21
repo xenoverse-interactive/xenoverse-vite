@@ -19,8 +19,6 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Mainpage />} />
             <Route path="news/:id" element={<Newspage />} />
-            <Route path="news2" element={<Newspage />} />
-            <Route path="news3" element={<Newspage />} />
           </Route>
         </Routes>
       </BrowserRouter>

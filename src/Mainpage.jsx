@@ -4,37 +4,37 @@ import { Link } from "react-router-dom";
 const services = [
   {
     title: "Animation",
-    imgPath: "/src/assets/animation.jpg",
+    imgPath: "/assets/animation.jpg",
     content:
       " We create smooth, engaging animations that bring your website to life. From subtle transitions to dynamic effects, we enhance user experience with seamless motion. Elevate your brand with visually stunning animations.",
   },
   {
     title: "VFX and CGI",
-    imgPath: "/src/assets/film-making.jpg",
+    imgPath: "/assets/film-making.jpg",
     content:
       "  We craft cinematic visuals that captivate and inspire. From story boarding to postproduction including VFX and CGI. We bring your vision to life with                professional filmmaking. Elevate your content with stunning                production.",
   },
   {
     title: "Music Composition",
-    imgPath: "/src/assets/music.jpg",
+    imgPath: "/assets/music.jpg",
     content:
       " We create original, high-quality music tailored to your needs. From melodies to full orchestrations, we bring emotion and depth to every project. Enhance your brand with unforgettable sound.",
   },
   {
     title: "Digital Marketing",
-    imgPath: "/src/assets/digital-marketing.jpg",
+    imgPath: "/assets/digital-marketing.jpg",
     content:
       " We drive results with targeted strategies that maximize your online presence. From SEO to social media, we grow your brand with data-driven marketing. Boost engagement and conversions effortlessly.",
   },
   {
     title: "Virtual Production",
-    imgPath: "/src/assets/virtual-production.jpg",
+    imgPath: "/assets/virtual-production.jpg",
     content:
       " We blend real and digital worlds to create cutting-edge visual experiences. From LED walls to 3D environments, we revolutionize storytelling with technology. Elevate your production with innovation.",
   },
   {
     title: "3D Printing",
-    imgPath: "/src/assets/3d-printing.jpg",
+    imgPath: "/assets/3d-printing.jpg",
     content:
       "We bring ideas to life with precision-crafted 3D models. From prototypes to custom designs, we turn concepts into reality with advanced printing technology. Innovate with high-quality 3D solutions.",
   },
@@ -44,22 +44,22 @@ const newsData = [
   {
     title: "Elevate Your Marketing Strategy",
     path: "/news/1",
-    imgPath: "/src/assets/news1-edited.jpg",
+    imgPath: "/assets/news1-edited.jpg",
   },
   {
     title: "Captivating Animation Videos",
     path: "/news/2",
-    imgPath: "/src/assets/news2-edited.jpg",
+    imgPath: "/assets/news2-edited.jpg",
   },
   {
     title: "Introducing 3D Printing Services",
     path: "/news/3",
-    imgPath: "/src/assets/news3-edited.jpg",
+    imgPath: "/assets/news3-edited.jpg",
   },
   {
     title: "Comic Con 2025",
     path: "https://www.linkedin.com/posts/xenoverse-interactive_chennaicomiccon2025-xenoverseinteractive-activity-7295061674674241536-K6eR?utm_source=share&utm_medium=member_ios&rcm=ACoAAC-gEMQBjHFje97NYCIbvfes5qBFtwhrTgs",
-    imgPath: "/src/assets/sherwin-comicon.jpg",
+    imgPath: "/assets/sherwin-comicon.jpg",
   },
 ];
 
@@ -77,7 +77,7 @@ export default function Mainpage() {
           <h1>Xenoverse Interactive</h1>
           <p>An Artistic Experience</p>
           {/* <img
-            src="/src/assets/xenoverse-logo.jpg"
+            src="/assets/xenoverse-logo.jpg"
             alt="Xenoverse Logo"
             className="xenoverse-img"
           /> */}
@@ -86,10 +86,7 @@ export default function Mainpage() {
           </a>
         </div>
         <div className="hero-image">
-          <img
-            src="/src/assets/xenoverse-logo.jpg"
-            alt="Girl with VR Headset"
-          />
+          <img src="/assets/xenoverse-logo.jpg" alt="Girl with VR Headset" />
         </div>
       </header>
       <section className="about" style={{ position: "relative" }}>
@@ -120,7 +117,7 @@ export default function Mainpage() {
           {/* <div className="service-item">
             <h3>Animation</h3>
             <div style={{ height: "25vw" }} className="service-content">
-              <img src="/src/assets/animation.jpg" alt="" />
+              <img src="/assets/animation.jpg" alt="" />
               <div>
                 We create smooth, engaging animations that bring your website to
                 life. From subtle transitions to dynamic effects, we enhance
@@ -132,7 +129,7 @@ export default function Mainpage() {
           <div className="service-item">
             <h3>Film Making</h3>
             <div style={{ height: "25vw" }} className="service-content">
-              <img src="/src/assets/film-making.jpg" alt="" />
+              <img src="/assets/film-making.jpg" alt="" />
               <div>
                 We craft cinematic visuals that captivate and inspire. From
                 storytelling to editing, we bring your vision to life with
@@ -144,7 +141,7 @@ export default function Mainpage() {
           <div className="service-item">
             <h3>Music Composition</h3>
             <div style={{ height: "25vw" }} className="service-content">
-              <img src="/src/assets/film-making.jpg" alt="" />
+              <img src="/assets/film-making.jpg" alt="" />
               <div>
                 We craft cinematic visuals that captivate and inspire. From
                 storytelling to editing, we bring your vision to life with
@@ -156,7 +153,7 @@ export default function Mainpage() {
           <div className="service-item">
             <h3>Digital Marketing</h3>
             <div style={{ height: "25vw" }} className="service-content">
-              <img src="/src/assets/film-making.jpg" alt="" />
+              <img src="/assets/film-making.jpg" alt="" />
               <div>
                 We craft cinematic visuals that captivate and inspire. From
                 storytelling to editing, we bring your vision to life with
@@ -168,7 +165,7 @@ export default function Mainpage() {
           <div className="service-item">
             <h3>Virtual Production</h3>
             <div style={{ height: "25vw" }} className="service-content">
-              <img src="/src/assets/film-making.jpg" alt="" />
+              <img src="/assets/film-making.jpg" alt="" />
               <div>
                 We craft cinematic visuals that captivate and inspire. From
                 storytelling to editing, we bring your vision to life with
@@ -180,7 +177,7 @@ export default function Mainpage() {
           <div className="service-item">
             <h3>3D Printing</h3>
             <div style={{ height: "25vw" }} className="service-content">
-              <img src="/src/assets/film-making.jpg" alt="" />
+              <img src="/assets/film-making.jpg" alt="" />
               <div>
                 We craft cinematic visuals that captivate and inspire. From
                 storytelling to editing, we bring your vision to life with
@@ -204,19 +201,19 @@ export default function Mainpage() {
           ))}
           {/* <div className="news-card">
             <Link to="/news/1">
-              <img src="/src/assets/news1-edited.jpg" alt="News 1" />
+              <img src="/assets/news1-edited.jpg" alt="News 1" />
               <h3>Elevate Your Marketing Strategy</h3>
             </Link>
           </div>
           <div className="news-card">
             <Link to="/news/2">
-              <img src="/src/assets/news2-edited.jpg" alt="News 2" />
+              <img src="/assets/news2-edited.jpg" alt="News 2" />
               <h3>Captivating Animation Videos</h3>
             </Link>
           </div>
           <div className="news-card">
             <Link to="/news/3">
-              <img src="/src/assets/news3-edited.jpg" alt="News 3" />
+              <img src="/assets/news3-edited.jpg" alt="News 3" />
               <h3>Introducing 3D Printing Services</h3>
             </Link>
           </div> */}
@@ -235,7 +232,7 @@ export default function Mainpage() {
             <div className="contact-links">
               <div className="phone">
                 <img
-                  src="/src/assets/icons8-phone-100.png"
+                  src="/assets/icons8-phone-100.png"
                   alt="phone"
                   style={{ width: "2rem" }}
                 />
@@ -243,7 +240,7 @@ export default function Mainpage() {
               </div>
               <div className="Email">
                 <img
-                  src="/src/assets/icons8-email-100.png"
+                  src="/assets/icons8-email-100.png"
                   alt="email"
                   style={{ width: "2rem" }}
                 />
@@ -253,7 +250,7 @@ export default function Mainpage() {
               </div>
               <div className="Linkedln">
                 <img
-                  src="/src/assets/icons8-linkedin-240.png"
+                  src="/assets/icons8-linkedin-240.png"
                   alt="email"
                   style={{ width: "2rem" }}
                 />
@@ -263,7 +260,7 @@ export default function Mainpage() {
               </div>
               <div className="Address">
                 <img
-                  src="/src/assets/icons8-address-100.png"
+                  src="/assets/icons8-address-100.png"
                   alt="email"
                   style={{ width: "2rem" }}
                 />
