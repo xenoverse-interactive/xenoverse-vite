@@ -1,0 +1,16 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/* styles.css */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}

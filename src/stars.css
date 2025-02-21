@@ -1,0 +1,130 @@
+html {
+  height: 100%;
+  /*   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+  background: black;
+  overflow: hidden;
+}
+
+#stars,
+#stars2,
+#stars3 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+}
+
+/* More stars added */
+#stars {
+  box-shadow: 483px 450px #fff, 1995px 525px #fff, 755px 1459px #fff,
+    610px 1246px #fff, 764px 1850px #fff, 1274px 1697px #fff, 1227px 37px #fff,
+    1090px 506px #fff, 341px 1005px #fff, 1002px 755px #fff, 1240px 800px #fff,
+    1540px 1800px #fff, 1800px 700px #fff, 700px 1800px #fff, 1600px 1400px #fff,
+    1900px 1100px #fff, 500px 1300px #fff, 1450px 1600px #fff, 900px 1900px #fff,
+    300px 1500px #fff, 1200px 300px #fff, 1400px 900px #fff, 1600px 600px #fff,
+    500px 500px #fff, 1750px 500px #fff, 650px 1600px #fff, 850px 700px #fff,
+    100px 1800px #fff, 200px 600px #fff, 850px 1400px #fff, 1350px 450px #fff,
+    1700px 1200px #fff, 400px 1900px #fff, 600px 1100px #fff, 1500px 1700px #fff,
+    1300px 100px #fff, 1800px 1400px #fff, 500px 800px #fff, 700px 500px #fff,
+    1600px 1300px #fff;
+
+  animation: animStar 50s linear infinite;
+}
+
+#stars:after {
+  content: " ";
+  position: absolute;
+  left: -2000px;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: inherit;
+}
+
+/* Medium-sized stars */
+#stars2 {
+  width: 2px;
+  height: 2px;
+  box-shadow: 1585px 315px #fff, 1750px 858px #fff, 502px 1184px #fff,
+    1482px 150px #fff, 870px 93px #fff, 1401px 1976px #fff, 494px 1549px #fff,
+    1607px 1894px #fff, 1029px 1466px #fff, 1931px 1390px #fff,
+    819px 1431px #fff, 521px 1062px #fff, 1754px 574px #fff, 577px 943px #fff,
+    850px 1377px #fff, 445px 1835px #fff, 1658px 1675px #fff, 721px 1044px #fff,
+    1260px 1724px #fff, 1629px 1478px #fff, 1300px 400px #fff, 1100px 900px #fff,
+    900px 1600px #fff, 400px 100px #fff, 1800px 300px #fff, 300px 1100px #fff,
+    700px 1300px #fff, 150px 1700px #fff, 200px 500px #fff, 1350px 800px #fff,
+    1600px 100px #fff, 900px 1800px #fff, 1400px 150px #fff, 400px 800px #fff,
+    1250px 1300px #fff, 1000px 600px #fff, 1800px 1200px #fff, 1700px 400px #fff,
+    1500px 1400px #fff, 800px 200px #fff;
+  animation: animStar 100s linear infinite;
+}
+
+#stars2:after {
+  content: " ";
+  position: absolute;
+  left: -2000px;
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: inherit;
+}
+
+/* Largest stars */
+#stars3 {
+  width: 3px;
+  height: 3px;
+  box-shadow: 91px 409px #fff, 1886px 728px #fff, 1294px 970px #fff,
+    720px 1215px #fff, 796px 1431px #fff, 834px 1217px #fff, 1926px 1164px #fff,
+    1803px 310px #fff, 1532px 1421px #fff, 1680px 232px #fff, 200px 700px #fff,
+    1250px 1050px #fff, 1750px 900px #fff, 600px 1500px #fff, 400px 1800px #fff,
+    1850px 1200px #fff, 500px 200px #fff, 1700px 1000px #fff, 1600px 1500px #fff,
+    1400px 600px #fff, 700px 400px #fff, 1300px 1100px #fff, 900px 1400px #fff,
+    300px 700px #fff, 1200px 600px #fff, 1750px 300px #fff, 1600px 900px #fff,
+    150px 1700px #fff, 1100px 200px #fff, 800px 1700px #fff, 1400px 1000px #fff,
+    1800px 500px #fff, 700px 1200px #fff, 400px 600px #fff, 900px 1500px #fff,
+    1300px 300px #fff, 1600px 1400px #fff, 1000px 1800px #fff, 1500px 500px #fff,
+    500px 1300px #fff;
+  animation: animStar 150s linear infinite;
+}
+
+#stars3:after {
+  content: " ";
+  position: absolute;
+  left: -2000px;
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: inherit;
+}
+
+/* Title styling */
+#title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
+}
+
+#title span {
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Updated animation for left-to-right movement */
+@keyframes animStar {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(2000px);
+  }
+}

@@ -1,0 +1,141 @@
+/* Global Styles */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background: black;
+  padding: 15px;
+}
+
+.back-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Post Header */
+.post-header {
+  text-align: left;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  background: gray;
+  color: white;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.updated {
+  color: gray;
+  font-size: 14px;
+}
+
+/* Blog Content */
+.post-image {
+  width: 30vw;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.content {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Social Share Icons */
+.social-share {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.social-share i {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-share i:hover {
+  color: gray;
+}
+
+/* Meta Info */
+.meta-info {
+  color: gray;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Recent Posts */
+.recent-posts {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.post-card {
+  background: #111;
+  padding: 10px;
+  border-radius: 5px;
+  width: 48%;
+  text-align: center;
+}
+
+.post-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.post-card p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Comments */
+textarea {
+  width: 100%;
+  background: #111;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+textarea::placeholder {
+  color: gray;
+}
